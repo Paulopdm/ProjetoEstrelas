@@ -1,0 +1,72 @@
+body{
+    background-image: linear-gradient(
+        180deg,
+        #0a22f5 5%,
+        #041185 20%,
+        #020642 60%,
+        #2f6ed3 95%
+    );
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    width: 100%;    
+}
+
+main{
+    height: 100vh;
+    justify-content: center;
+    position: relative;
+}
+
+img {
+    backdrop-filter: blur(10px);
+    border: 0px solid rgba(255, 255, 255, 0.18);
+    border-radius: 10px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    height: 250px;
+    width: 250px;
+    margin: 10px;
+    -webkit-backdrop-filter: blur(10px);    
+}   
+
+.conteudo {
+    background-color: rgb(84, 95, 247);
+    display: flex;
+    justify-content: center;
+        
+}
+
+p {
+    text-align: center;
+    font-size: 18px;
+
+}
+
+h1 {
+    text-align: center;
+    font-family: fantasy;
+    font-size: 50px;
+    color:darkorange ;
+}
+
+.inicio {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+button {
+
+    border-radius: 4px;
+    background-color: #000000;
+    color: white;
+    font-family: EuclidBold;
+    font-size: 15px;
+    font-weight: 700px;
+    letter-spacing: -0.6px;
+    line-height: 15px;
+    text-transform: uppercase;
+    padding: 9px 23px;
+    border: none;
+    margin: 15px 0 0; 
+}
