@@ -22,7 +22,7 @@ let arrayPersonagens = []
 GerarNumero = () => {
     let valorRandom;
 
-    valorRandom = Math.floor ((Math.random () * NumeroMaximo) + 1);
+    valorRandom = Math.floor (Math.random () * NumeroMaximo);
 
     if (arrayPersonagens.includes(valorRandom)) {
         valorRandom = GerarNumero();            
